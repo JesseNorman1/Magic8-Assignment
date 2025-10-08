@@ -15,18 +15,12 @@ public class Magic8Ball : MonoBehaviour
         float currentValue = mySlider.value; 
     }
   
-    // Update is called once per frame
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             SliderValue();
         }
-    }
-
-    public void ButtonPress() 
-    {
-        SliderValue();
     }
 
     public void SliderValue() 

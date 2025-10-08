@@ -297,7 +297,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 231534103}
         m_TargetAssemblyTypeName: Magic8Ball, Assembly-CSharp
-        m_MethodName: ButtonPress
+        m_MethodName: SliderValue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
